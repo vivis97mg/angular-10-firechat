@@ -1,0 +1,39 @@
+.chat-window{
+  padding: 10px;
+  width: 300px;
+  height: 400px;
+  overflow: hidden;
+  border: 1px solid #4080FF;
+  border-radius: 20px;
+}
+
+.app-mensajes{
+  overflow-y: auto;
+  height:270px;
+  padding: 5px;
+}
+
+/* Animaciones */
+.animated,
+.fast {
+  animation-fill-mode: both;
+}
+
+.animated {
+  animation-duration: 1s;
+}
+
+.fast {
+  animation-duration: 0.3s;
+}
+
+.fadein {
+  animation-name: fadein;
+  opacity: 0;
+}
+
+@keyframes fadein {
+  to {
+    opacity: 1;
+  }
+}
