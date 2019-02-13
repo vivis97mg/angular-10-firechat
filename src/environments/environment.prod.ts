@@ -2,7 +2,7 @@ export const environment = {
   production: true,
   firebase: {
     apiKey: "AIzaSyDZvxbiVKrF0eZ1QoQbxcySrjQWLu7qsfs",
-    authDomain: "firechat-e355b.firebaseapp.com",
+    authDomain: "https://vivis97mg.github.io/angular-10-firechat/",
     databaseURL: "https://firechat-e355b.firebaseio.com",
     projectId: "firechat-e355b",
     storageBucket: "firechat-e355b.appspot.com",
